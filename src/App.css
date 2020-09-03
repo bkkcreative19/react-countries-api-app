@@ -219,9 +219,6 @@ body {
   margin-top: 0.8rem;
 }
 
-.details p:not(:first-child) {
-}
-
 .details span {
   font-weight: 300;
   margin-left: 0.7rem;

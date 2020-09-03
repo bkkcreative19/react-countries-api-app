@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import { Context } from "../../context/context";
+import React from "react";
 import CoutriesList from "../../components/CoutriesList/CoutriesList";
 import SearchFilter from "../../components/Search/Search";
 

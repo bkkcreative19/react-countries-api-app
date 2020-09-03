@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
-import DetailPage from "./pages/DetailPage/DetailPage";
+
 import Header from "./components/Header/Header";
 import HomePage from "./pages/HomePage/HomePage";
 import CountryDetail from "./components/CountryDetail/CountryDetail";
