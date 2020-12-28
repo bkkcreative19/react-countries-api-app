@@ -1,5 +1,0 @@
-Native Name: België
-Population: 11,319,511
-Region: Europe
-Sub Region: Western Europe
-Capital: Brussels
