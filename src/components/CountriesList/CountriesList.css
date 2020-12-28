@@ -1,0 +1,8 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+  margin-bottom: 2rem;
+  /* height: 60rem; */
+  height: auto;
+}

@@ -1,0 +1,38 @@
+.search-filter {
+  /* margin: 6rem 8rem; */
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-container {
+  width: 40%;
+  position: relative;
+}
+
+.search-icon {
+  position: relative;
+  top: 4.2rem;
+  font-size: 1.7rem;
+  left: 1.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 1.7rem 4rem;
+  margin: 8px 0;
+  border: none;
+  border-radius: 0.7rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.048);
+}
+
+.input::placeholder {
+  font-size: 1.5rem;
+  /* text-align: center; */
+  margin-left: 3rem;
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,16 +1,24 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Header.css";
 
-const Header = () => {
+const Header = ({ themeToggler, theme }) => {
   return (
-    <nav className='nav'>
-      <div className='nav-container'>
-        <h1>Where in the world?</h1>
-        <div className='theme'>
-          <i className='far fa-moon'></i>
-          <h3>Dark Mode</h3>
+    <header>
+      <nav className="nav container">
+        <Link to="/">
+          <h1>Where in the World?</h1>
+        </Link>
+        <div
+          onClick={themeToggler}
+          className="moon"
+          style={{ cursor: "pointer" }}
+        >
+          <i className={theme === "light" ? "far fa-moon" : "fas fa-moon"}></i>
+          <span>{theme === "light" ? "Dark Mode" : "Light Mode"}</span>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 
